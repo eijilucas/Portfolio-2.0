@@ -4,6 +4,7 @@ import { Start } from "./sections/start/start";
 
 import './components/styles/home.scss'
 import { Projects } from "./sections/project/projects";
+import { Certificate } from "./sections/certificate/certificate";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Start/>
     <About/>
     <Projects/>
+    <Certificate/>
    </main>
   )
 }

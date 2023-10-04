@@ -1,8 +1,8 @@
 :root {
- --bg-color: #252526;
+ --color-primary: #252526;
  --bg-header: #1e1e1e;
- --sb-color: #007acc;
- --about-color: rgb(11, 11, 11);
+ --scroll-color: #007acc;
+ --color-secondary: rgb(11, 11, 11);
 }
 
 * {
