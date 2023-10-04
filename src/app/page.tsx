@@ -3,7 +3,7 @@ import { Header } from "./components/header/header";
 import { Start } from "./sections/start/start";
 
 import './components/styles/home.scss'
-import { Projects } from "./sections/projects/projects";
+import { Projects } from "./sections/project/projects";
 
 export default function Home() {
   return (
