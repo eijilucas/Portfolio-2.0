@@ -8,7 +8,7 @@ export function Certificate(){
             <div className="certificate-content">
                 <div className="certificate-title">
                     <ChevronRight/>
-                    <h2>Certificates</h2>
+                    <h2>Certificados</h2>
                     <ChevronLeft/>
                 </div>
 

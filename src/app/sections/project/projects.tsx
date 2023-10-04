@@ -15,7 +15,7 @@ export function Projects(){
             <div className="project-content">
                 <div className="project-title">
                     <ChevronRight/>
-                    <h2>Projects</h2>
+                    <h2>Projetos</h2>
                     <ChevronLeft/>
                 </div>
 
