@@ -3,6 +3,11 @@ import './projects.scss'
 import { ChevronLeft } from '@/app/components/icons/chevron-left'
 import { Card } from '@/app/components/card/card'
 
+const data = [
+    {id: 1, image: '', title: '', description: ''},
+    {id: 2, image: '', title: '', description: ''},
+    {id: 3, image: '', title: '', description: ''}
+]
 
 export function Projects(){
     return(
@@ -15,9 +20,13 @@ export function Projects(){
                 </div>
 
                 <div className="project-cards">
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                    {data?.map((objData => 
+                    <Card key={objData.id}
+                    image={objData.image}
+                    title={objData.title}
+                    description={objData.description}
+                    />)
+                    )}               
                 </div>
             </div>
         </div>
