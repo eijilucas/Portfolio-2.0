@@ -1,6 +1,10 @@
+
+import { useState } from 'react';
 import './header.scss'
+import { useEffect  } from 'react'
 
 export function Header() {
+
     return (
         <div className="header">
 
@@ -8,7 +12,7 @@ export function Header() {
                 <span><h1>L.E DEV</h1></span>
             </div>
 
-            <div className="header-list">
+            <div className="header-list" >
                 <ul className='list'>
                     <li >
                         <a href="#start" className='list-item'>Início</a>

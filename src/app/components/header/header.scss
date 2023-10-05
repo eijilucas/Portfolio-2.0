@@ -65,8 +65,10 @@
         transform-origin: left bottom;
     }
 
-    @media(min-width: 768px) {
-        
+    @media(max-width: 768px) {
+        .header-list {
+            display: none;
+        }
     }
 }
 
