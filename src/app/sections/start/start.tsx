@@ -17,7 +17,7 @@ export function Start() {
 
                         <div className="text">
                             <h1>Lucas Eiji</h1>
-                            <span>Desenvolvedor Web</span>
+                            <span className='line typing-animation'>Desenvolvedor Web</span>
 
                             <div className="links">
                                 <a href="https://www.linkedin.com/in/eijilucas/" target='_blank'><Linkedin/></a>
