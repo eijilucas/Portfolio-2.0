@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import './card.scss'
 
+import Image from 'next/image'
+
 interface CardProps {
     id?: number,
     image: string,
@@ -13,7 +15,7 @@ export function Card({ image, title, description }: CardProps) {
         <div className="card">
             <div className="card-content">
                 <div className="card-image">
-                    <img src={image} alt="" width={350} height={275} />
+                    <Image src={image} alt="" width={350} height={275} />
                 </div>
 
                 <div className="card-title">

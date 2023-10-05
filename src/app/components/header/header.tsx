@@ -2,7 +2,7 @@ import './header.scss'
 
 export function Header() {
     return (
-        <section className="header">
+        <div className="header">
 
             <div className="header-logo">
                 <span><h1>// L.E DEV</h1></span>
@@ -28,6 +28,6 @@ export function Header() {
                 </ul>
             </div>
             
-        </section>
+        </div>
     )
 }
