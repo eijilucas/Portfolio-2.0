@@ -1,6 +1,7 @@
 import { ChevronRight } from '@/app/components/icons/chevron-right'
 import './certificate.scss'
 import { ChevronLeft } from '@/app/components/icons/chevron-left'
+import { CourseCard } from '@/app/components/course-card/course'
 
 export function Certificate(){
     return(
@@ -12,7 +13,9 @@ export function Certificate(){
                     <ChevronLeft/>
                 </div>
 
+                <div className="certificate-card">
                 
+                </div>
             </div>
         </div>
     )
