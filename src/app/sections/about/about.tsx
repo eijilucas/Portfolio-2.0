@@ -16,7 +16,7 @@ export function About() {
 
                 <div className="about-information">
                     <div className="about-text">
-                        <p>Olá, me chamo Lucas e sou um entusiasta na tecnologia que resolveu trilhar o caminho da programação. Tenho experiência na construção de APIs e alguns microserviços utilizando Java e Spring</p>
+                        <p>Olá, me chamo Lucas e sou um entusiasta na tecnologia que resolveu trilhar o caminho da programação. Tenho experiência na construção de APIs e alguns microserviços utilizando Java e Spring, além da criação de sites responsivos utilizando React.</p>
                         <br />
                         <p>Atualmente curso Análise e Desenvolvimento de Sistemas na Universidade de Mogi das Cruzes e tenho focado no desenvolvimento FullStack.</p>
                     </div>

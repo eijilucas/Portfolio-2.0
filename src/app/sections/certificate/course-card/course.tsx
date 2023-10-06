@@ -1,6 +1,6 @@
-import { CalendaryIcon } from "../icons/calendary"
-import { InstitutionIcon } from "../icons/institution-icon"
-import { OpenBookIcon } from "../icons/open-book"
+import { CalendaryIcon } from "../../../components/icons/calendary"
+import { InstitutionIcon } from "../../../components/icons/institution-icon"
+import { OpenBookIcon } from "../../../components/icons/open-book"
 import Link from 'next/link';
 
 import './course.scss'
@@ -14,6 +14,9 @@ interface CourseCardProps {
 }
 
 export function CourseCard({ title, instructor, institution, duration, certificateLink }: CourseCardProps) {
+
+    
+
     return (
         <div className="course-card">
             <div className="course-content">
@@ -56,9 +59,7 @@ export function CourseCard({ title, instructor, institution, duration, certifica
                     </div>
 
                     <div className="btns">
-                        <Link href="">
-                            <button>Certificado</button>
-                        </Link>
+                        <a href={certificateLink} target="_blank"><button>Certificado</button></a>
                     </div>
                 </div>
             </div>

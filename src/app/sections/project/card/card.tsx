@@ -7,10 +7,11 @@ interface CardProps {
     id?: number,
     image: string,
     title: string,
-    description: string
+    description: string,
+    link : string
 }
 
-export function Card({ image, title, description }: CardProps) {
+export function Card({ image, title, description, link }: CardProps) {
     return (
         <div className="card">
             <div className="card-content">
@@ -27,9 +28,7 @@ export function Card({ image, title, description }: CardProps) {
                     </div>
                 </div>
                 <div className="card-button">
-                    <Link href='https://github.com/eijilucas' target='_blank'>
-                        <button type='submit'>Saiba mais</button>
-                    </Link>
+                    <a href={link} target='_blank'><button type='submit'>Repositório</button></a>
                 </div>
             </div>
         </div>
