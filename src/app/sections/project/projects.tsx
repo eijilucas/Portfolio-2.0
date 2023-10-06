@@ -4,9 +4,9 @@ import { ChevronLeft } from '@/app/components/icons/chevron-left'
 import { Card } from '@/app/sections/project/card/card'
 
 const data = [
-    {id: 1, image: '/assets/mongodb-logo.jpg' ,title: 'Rest API', description: 'API para consulta de posts com usuários e comentários vinculados a um usuário utilizando o banco de dados MongoDB e Spring.', link: 'https://github.com/eijilucas/restapi-mongodb'},
-    {id: 2, image: '/assets/potifolio-image.png' ,title: 'Portfólio', description: 'Portfólio criado para apresentar meus trabalhos e habilidades', link: 'https://github.com/eijilucas/Portfolio-2.0'},
-    {id: 3, image: '/assets/web-service-image.png' ,title: 'Web Service', description: 'API com objetivo de gerenciar pedidos e compras para plataformas de ecommerce com Spring.', link: 'https://github.com/eijilucas/shop-project'}
+    {id: 1, image: '/assets/mongodb-logo2.jpg' ,title: 'Rest API', description: 'API para consulta de posts com usuários e comentários vinculados a um usuário utilizando o banco de dados MongoDB e Spring.', link: 'https://github.com/eijilucas/restapi-mongodb'},
+    {id: 2, image: '/assets/portifolio.png' ,title: 'Portfólio', description: 'Portfólio criado para apresentar meus trabalhos e habilidades', link: 'https://github.com/eijilucas/Portfolio-2.0'},
+    {id: 3, image: '/assets/api.jpg' ,title: 'Web Service', description: 'API com objetivo de gerenciar pedidos e compras para plataformas de ecommerce com Spring.', link: 'https://github.com/eijilucas/shop-project'}
 ]
 
 export function Projects(){
