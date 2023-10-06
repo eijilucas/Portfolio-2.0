@@ -1,6 +1,6 @@
 .project {
     width: 100vw;
-    height: 80vh;
+    height: fit-content;
     background: var(--color-primary);
 
     display: flex;
@@ -31,15 +31,17 @@
         justify-content: center;
         gap: 28px;
         align-items: center;
+        padding-bottom: 5rem;
     }
  
-    @media (max-width:768px) {
+    @media (max-width:1140px) {
         height: fit-content;
         padding-bottom: 3rem;
 
         .project-cards {
             display: flex;
             flex-direction: column;
+            padding-bottom: 2rem;
         }
     } 
 }
