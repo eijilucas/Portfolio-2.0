@@ -32,5 +32,14 @@
         gap: 28px;
         align-items: center;
     }
-    
+ 
+    @media (max-width:768px) {
+        height: fit-content;
+        padding-bottom: 3rem;
+
+        .project-cards {
+            display: flex;
+            flex-direction: column;
+        }
+    } 
 }
