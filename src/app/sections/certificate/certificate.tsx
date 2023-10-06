@@ -10,7 +10,7 @@ const data = [
 
 export function Certificate(){
     return(
-        <div className="certificate">
+        <div className="certificate" id='certificate'>
             <div className="certificate-content">
                 <div className="certificate-title">
                     <ChevronRight/>

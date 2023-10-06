@@ -27,7 +27,7 @@ export function Header() {
                         <a href="#certificate" className='list-item'>Certificados</a>
                     </li>
                     <li>
-                        <a href="#habilities" className='list-item'>Habilidades</a>
+                        <a href="#abilities" className='list-item'>Habilidades</a>
                     </li>
                 </ul>
             </div>
