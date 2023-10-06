@@ -61,6 +61,10 @@
 
     @media(max-width: 768px) {
         widht: 300;
+
+        .card-information {
+            text-align: center;
+        }
     }
 
 }
