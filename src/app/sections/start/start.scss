@@ -100,7 +100,7 @@
         }
     }
 
-    @media(min-width: 768px) {
+    @media(max-width: 768px) {
         .text {
             text-align: start;
             font-size: 2em;
