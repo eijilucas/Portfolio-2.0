@@ -3,6 +3,8 @@ import { InstitutionIcon } from "../icons/institution-icon"
 import { OpenBookIcon } from "../icons/open-book"
 import Link from 'next/link';
 
+import './course.scss'
+
 interface CourseCardProps {
     title: string,
     instructor: string,
@@ -11,51 +13,53 @@ interface CourseCardProps {
     certificateLink: string
 }
 
-export function CourseCard({title, instructor, institution, duration, certificateLink} : CourseCardProps){
-    return(
+export function CourseCard({ title, instructor, institution, duration, certificateLink }: CourseCardProps) {
+    return (
         <div className="course-card">
             <div className="course-content">
                 <div className="title">
-                    <h2>{title}</h2>
+                    <h3>{title}</h3>
                 </div>
 
                 <div className="infos">
                     <div className="instructor">
-                        <div className="instructor-icon">
-                            <OpenBookIcon/>
-                        </div>
+                        <OpenBookIcon />
                         <div className="instructor-info">
                             <p>Instructor</p>
                             {instructor}
                         </div>
                     </div>
 
-                    <div className="intitution">
-                        <div className="institution-icon">
-                            <InstitutionIcon/>
-                        </div>
-                        <div className="instituction-info">
-                            <p>Instution</p>
+                    <div className="institution">
+                        <InstitutionIcon />
+                        <div className="institution-info">
+                            <p>Institution</p>
                             {institution}
                         </div>
                     </div>
                 </div>
 
-                <div className="duration">
-                    <div className="duration-time">
-                        {duration}
+                <div className="extra-info">
+                    <div className="duration">
+                        <p>DURATION</p>
+                        <div className="duration-content">
+
+                            <div className="duration-time">
+                                {duration}
+                            </div>
+
+                            <div className="duration-icon">
+                                <CalendaryIcon />
+                                <p>Hours</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div className="duration-icon">
-                        <CalendaryIcon/>
-                        <p>Hours</p>
+                    <div className="btns">
+                        <Link href="">
+                            <button>Certificado</button>
+                        </Link>
                     </div>
-                </div>
-
-                <div className="btns">
-                    <Link href={certificateLink}>
-                        <button>Certificado</button>
-                    </Link>
                 </div>
             </div>
         </div>

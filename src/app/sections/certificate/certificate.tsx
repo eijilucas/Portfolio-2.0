@@ -3,6 +3,10 @@ import './certificate.scss'
 import { ChevronLeft } from '@/app/components/icons/chevron-left'
 import { CourseCard } from '@/app/components/course-card/course'
 
+const data = [
+    {id: 1, title: 'Java Completo 2023 Programação Orientada a Objetos', instructor: 'Nelio Alves', institution: 'Udemy', duration: 54, certificateLink: 'https://www.udemy.com/certificate/UC-2a566039-e192-4080-97a9-3f609dabde80/'}
+]
+
 export function Certificate(){
     return(
         <div className="certificate">
@@ -14,7 +18,14 @@ export function Certificate(){
                 </div>
 
                 <div className="certificate-card">
-                
+                    {data.map(certificate => <CourseCard key={certificate.id}
+                    title={certificate.title}
+                    instructor={certificate.instructor}
+                    institution={certificate.institution}
+                    duration={certificate.duration}
+                    certificateLink={certificate.certificateLink}
+                    />
+                    )}
                 </div>
             </div>
         </div>
