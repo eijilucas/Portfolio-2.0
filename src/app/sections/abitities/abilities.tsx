@@ -2,23 +2,21 @@ import { ChevronLeft } from "@/app/components/icons/chevron-left";
 import { ChevronRight } from "@/app/components/icons/chevron-right";
 
 import './abilities.scss'
+import { Skill } from "./skill/skill";
 
-export function Abilities(){
-    return(
-        <div className="abilities">
+export function Abilities() {
+
+    return (
+        <div className="abilities" id="abilities">
             <div className="abilities-content">
                 <div className="abilities-title">
-                    <ChevronRight/>
+                    <ChevronRight />
                     <h2>Habilidades</h2>
-                    <ChevronLeft/>
+                    <ChevronLeft />
                 </div>
 
-                <div className="skill">
-                    <div className="skill-text">
-                        <div className="skill-title">
-                            <h3>{}</h3>
-                        </div>
-                    </div>
+                <div className="skill-content">
+                    
                 </div>
             </div>
         </div>
