@@ -2,7 +2,10 @@ import { ChevronLeft } from "@/app/components/icons/chevron-left";
 import { ChevronRight } from "@/app/components/icons/chevron-right";
 
 import './abilities.scss'
-import { Skill } from "./skill/skill";
+
+const data = [
+    {}
+]
 
 export function Abilities() {
 

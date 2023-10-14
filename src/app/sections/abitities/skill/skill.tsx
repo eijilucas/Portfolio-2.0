@@ -1,8 +1,10 @@
+import Image from "next/image";
+import './skill.scss'
 
 interface SkillProps {
     title: string,
     description: string,
-    svg: string;
+    svg: string
 }
 
 export function Skill(props : SkillProps) {
@@ -18,7 +20,7 @@ export function Skill(props : SkillProps) {
                 </div>
             </div>
             <div className="skill-svg">
-                <img src={props.svg} alt="" />
+                <Image src={props.svg} alt="" />
             </div>
         </div>
     )
